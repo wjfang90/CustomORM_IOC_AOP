@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Custom.Framework\Custom.Framework.csproj" />
+    <ProjectReference Include="..\Custom.IDAL\Custom.IDAL.csproj" />
+    <ProjectReference Include="..\Custom.Model\Custom.Model.csproj" />
+  </ItemGroup>
+
+</Project>

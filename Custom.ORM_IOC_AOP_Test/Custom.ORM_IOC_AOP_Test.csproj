@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Custom.ORM_IOC_AOP_Test</AssemblyName>
+    <RootNamespace>Custom.ORM_IOC_AOP_Test</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Core" Version="4.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Custom.BLL\Custom.BLL.csproj" />
+    <ProjectReference Include="..\Custom.DAL\Custom.DAL.csproj" />
+    <ProjectReference Include="..\Custom.IBLL\Custom.IBLL.csproj" />
+    <ProjectReference Include="..\Custom.IDAL\Custom.IDAL.csproj" />
+    <ProjectReference Include="..\Custom.Model\Custom.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

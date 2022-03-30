@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Custom.BLL\Custom.BLL.csproj" />
+    <ProjectReference Include="..\Custom.DAL\Custom.DAL.csproj" />
+    <ProjectReference Include="..\Custom.IBLL\Custom.IBLL.csproj" />
+    <ProjectReference Include="..\Custom.IDAL\Custom.IDAL.csproj" />
+    <ProjectReference Include="..\Custom.Model\Custom.Model.csproj" />
+  </ItemGroup>
+
+</Project>
